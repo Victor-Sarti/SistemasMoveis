@@ -45,7 +45,7 @@ export default function UsuarioScreen({ navigation }) {
         <Button
           mode="contained"
           onPress={handleLogin}
-          style={{ marginTop: 20, width: '100%' }}
+          style={{ marginTop: 20, width: '100%', backgroundColor:  '#008000' }}
         >
           Entrar
         </Button>

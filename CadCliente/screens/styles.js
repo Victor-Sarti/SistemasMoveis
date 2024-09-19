@@ -13,10 +13,11 @@ export default StyleSheet.create({
   button: {
     marginTop: 20,
     paddingVertical: 10,
+    backgroundColor: '#008000',
     borderRadius: 5, // Canto arredondado para botões
   },
   header: {
-    backgroundColor: '#6200ee', // Cor de fundo da barra superior
+    backgroundColor: '#008000', // Cor de fundo da barra superior
   },
   title: {
     color: '#fff', // Cor do texto da barra superior
