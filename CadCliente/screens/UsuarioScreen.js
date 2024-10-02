@@ -29,7 +29,7 @@ export default function UsuarioScreen({ navigation }) {
           label="Nome"
           value={nome}
           onChangeText={text => setNome(text)}
-          style={{ width: '100%', marginBottom: 20 }}
+          style={{ width: '50%', marginBottom: 20 }}
           mode="outlined"
         />
 
@@ -38,14 +38,14 @@ export default function UsuarioScreen({ navigation }) {
           value={senha}
           onChangeText={text => setSenha(text)}
           secureTextEntry
-          style={{ width: '100%', marginBottom: 20 }}
+          style={{ width: '50%', marginBottom: 20 }}
           mode="outlined"
         />
 
         <Button
           mode="contained"
           onPress={handleLogin}
-          style={{ marginTop: 20, width: '100%', backgroundColor:  '#008000' }}
+          style={{ marginTop: 20, width: '50%', backgroundColor:  '#008000' }}
         >
           Entrar
         </Button>
