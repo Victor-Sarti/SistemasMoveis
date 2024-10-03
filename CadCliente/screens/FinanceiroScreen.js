@@ -86,7 +86,7 @@ export default function FinanceiroScreen({ navigation }) {
           onPress={handleSaveFinance}
           style={styles.button}
         >
-          Salvar Dados Financeiros
+          Salvar Dados 
         </Button>
       </View>
     </View>
